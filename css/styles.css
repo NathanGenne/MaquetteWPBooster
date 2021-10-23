@@ -1,8 +1,63 @@
 .fusee {
-    background-color: black;
-    position:absolute;
-    right: 50%;
+    margin: auto;
+    width: 120px;
+    height:120px;
 }
-svg {
+.titre h1 {
     text-align: center;
+    font-size: 30px;
+}
+.portraits-wrapper {
+    width: 955px;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.portraits-wrapper .flex-item {
+    width: 216px;
+    height:230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portrait {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    transform: translateY(-50%);
+}
+.portraits-wrapper p {
+    font-size: 16px;
+}
+.portrait-1 {
+    background-color: #BFDBFF;
+}
+.portrait-2 {
+    background-color: #FFCD69;
+}
+.portrait-3 {
+    background-color: #FF7480;
+}
+.portrait-4 {
+    background-color: #FFE6B4;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo-wrapper {
+    width: 69px;
+    height:18px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.petit-logo {
+    width: 20px;
+    height: 100%;
+    
+}
+.bleu {
+    color: #000A64;
 }
